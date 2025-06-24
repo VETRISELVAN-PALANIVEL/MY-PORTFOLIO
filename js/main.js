@@ -56,11 +56,3 @@
 
 
 })(jQuery);
-
-
-window.onload = function() {
-    var spinner = document.getElementById('spinner');
-    if (spinner) {
-        spinner.classList.remove('show');
-    }
-};
